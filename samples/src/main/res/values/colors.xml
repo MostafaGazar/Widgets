@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white_solid">#FFFFFFFF</color>
+    <color name="white_transparent">#33FFFFFF</color>
+    <color name="gray">#787878</color>
+    <color name="green">#2baf2b</color>
+    <color name="red">#e84e40</color>
+
+    <color name="window_bg">#90a4ae</color>
+    <color name="settings_bg">#CCFFFFFF</color>
+    <color name="text">#D8333333</color>
+    <color name="shadow">#59787878</color>
+    <color name="separator">#59787878</color>
+
+</resources>

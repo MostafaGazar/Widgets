@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Widgets</string>
+
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+
+    <string name="title">Widgets</string>
+    <string name="sub_title">Custom Android UI widgets</string>
+
+</resources>
