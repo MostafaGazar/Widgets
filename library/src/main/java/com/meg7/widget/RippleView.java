@@ -149,13 +149,15 @@ public class RippleView extends View {
                 mContainer.setLayoutParams(containerParams);
             } else {
                 // In case layout_weight was used on target view.
-                targetViewWidth = mContainer.getMeasuredWidth();
-                targetViewHeight = mContainer.getMeasuredHeight();
+                if (mContainer.getMeasuredWidth() > 0 && mContainer.getMeasuredHeight() > 0) {
+                    targetViewWidth = mContainer.getMeasuredWidth();
+                    targetViewHeight = mContainer.getMeasuredHeight();
 
-                ViewGroup.LayoutParams targetParams = mTargetView.getLayoutParams();
-                targetParams.width = targetViewWidth;
-                targetParams.height = targetViewHeight;
-                mTargetView.setLayoutParams(targetParams);
+                    ViewGroup.LayoutParams targetParams = mTargetView.getLayoutParams();
+                    targetParams.width = targetViewWidth;
+                    targetParams.height = targetViewHeight;
+                    mTargetView.setLayoutParams(targetParams);
+                }
             }
 
             // Allow drawing out of parent view.
