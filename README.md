@@ -3,6 +3,7 @@ widgets
 
 Custom Android UI widgets with samples
 
+[![Android Weekly](http://img.shields.io/badge/Android%20Weekly-%23117-2CB3E5.svg?style=flat)](http://androidweekly.net/issues/issue-117)
 
 1- RippleView
 -------------
